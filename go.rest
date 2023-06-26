@@ -1,0 +1,11 @@
+POST http://localhost:9000/api/addDevice
+Content-Type: "application/json"
+
+{
+    "Building": "Wing B",
+    "Floor": "Floor 2",
+    "Section": "General Ward",
+    "AccessPointName": "Access Point 5",
+    "BSSID": "ca:97:df:29:82:53",
+    "SSID": "44"
+}
