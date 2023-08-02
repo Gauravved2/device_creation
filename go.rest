@@ -2,10 +2,22 @@ POST http://localhost:9000/api/addDevice
 Content-Type: "application/json"
 
 {
-    "Building": "Wing B",
-    "Floor": "Floor 2",
-    "Section": "General Ward",
-    "AccessPointName": "Access Point 5",
-    "BSSID": "ca:97:df:29:82:53",
-    "SSID": "44"
+    "AccessPointData": [
+        {
+            "Building": "Wing A",
+            "Floor": "Floor 1",
+            "Section": "ICU",
+            "AccessPointName": "Access Point 1",
+            "BSSID": "ca:97:df:29:82:54",
+            "SSID": "42"
+        },
+        {
+            "Building": "Wing A",
+            "Floor": "Floor 3",
+            "Section": "General Ward",
+            "AccessPointName": "Access Point 2",
+            "BSSID": "ca:97:df:29:82:55",
+            "SSID": "43"
+        }
+    ]
 }
